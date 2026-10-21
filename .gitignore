@@ -31,3 +31,11 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# Additional ignored files
+.DS_Store
+.kotlin/
+.env
+.env.*
+**/serviceAccountKey.json
+node_modules/
