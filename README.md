@@ -67,3 +67,18 @@
   <img src="screenshots/battle_block.png" width="23%" alt="블록코딩 전투">
 </p>
   
+## 🔧 트러블슈팅
+
+### Firebase Cloud Functions에서 FCM 발송 권한 오류
+
+**문제 상황**
+- 3일 이상 미접속한 사용자에게 푸시 알림을 전송하는 기능을 구현하는 과정에서 권한 오류가 발생했습니다.
+
+**원인 분석**
+- Cloud Functions 실행 서비스 계정에 FCM 메시지 전송에 필요한 IAM 권한이 설정되지 않았습니다.
+
+**해결 방법**
+- 서비스 계정에 필요한 Firebase Cloud Messaging 관련 IAM 권한을 부여했습니다.
+
+**결과**
+- Cloud Functions를 통한 FCM 메시지 발송 및 Android 단말 수신을 확인했습니다.
