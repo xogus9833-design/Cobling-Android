@@ -56,3 +56,17 @@
 ## 프로젝트 포트폴리오
 
 포트폴리오 PDF 링크 추가 예정
+
+## 📱 프로젝트 실행 화면
+
+### 1. 홈 화면
+![홈 화면](screenshots/home.png)
+
+### 2. 퀘스트 목록
+![퀘스트 목록](screenshots/quest.png)
+
+### 3. 기초 블록코딩
+![기초 블록코딩](screenshots/tutorial_block.png)
+
+### 4. 블록코딩 전투
+![블록코딩 전투](screenshots/battle_block.png)
