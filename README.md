@@ -53,11 +53,6 @@
 - Firebase Security Rules 강화
 - 자동화 테스트 추가
 
-## 프로젝트 포트폴리오
-
-포트폴리오 PDF 링크 추가 예정
-
-
 ## 📱 프로젝트 실행 화면
 
 <p align="center">
@@ -82,3 +77,7 @@
 
 **결과**
 - Cloud Functions를 통한 FCM 메시지 발송 및 Android 단말 수신을 확인했습니다.
+
+## 📄 프로젝트 포트폴리오
+
+[코블링 포트폴리오 PDF 보기](docs/Cobling_Portfolio.pdf)
