@@ -93,4 +93,4 @@
 
 ## 📄 프로젝트 포트폴리오
 
-[코블링 포트폴리오 PDF 보기](docs/Cobling_Portfolio.pdf)
+[📄 코블링 포트폴리오 PDF 다운로드](https://github.com/xogus9833-design/Cobling-Android/raw/refs/heads/main/docs/Cobling_Portfolio.pdf)
