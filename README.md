@@ -11,6 +11,15 @@
 - **담당 역할:** 팀장 및 Firebase 백엔드 개발
 - **개발 환경:** Android Studio
 
+## 📱 프로젝트 실행 화면
+
+<p align="center">
+  <img src="screenshots/home.png" width="23%" alt="홈 화면">
+  <img src="screenshots/quest.png" width="23%" alt="퀘스트 목록">
+  <img src="screenshots/tutorial_block.png" width="23%" alt="기초 블록코딩">
+  <img src="screenshots/battle_block.png" width="23%" alt="블록코딩 전투">
+</p>
+
 ## 기술 스택
 
 **Android**
@@ -43,24 +52,27 @@
 - 퀘스트 진행도와 보상 처리 기능 개발
 - Firebase 연동 및 오류 해결
 
-## 프로젝트 화면
+## 🗄️ Firestore 데이터 설계
 
-앱 스크린샷 추가 예정
+### 주요 데이터 구조
+
+- `users/{uid}` : 사용자 프로필, 레벨, EXP, 골드
+- `users/{uid}/progress/{chapterId}` : 사용자별 챕터 진행도
+- `users/{uid}/progress/{chapterId}/subQuests/{subQuestId}` : 서브퀘스트 진행 상태
+- `quests/{chapterId}` : 공통 퀘스트 원본 데이터
+- `quests/{chapterId}/subQuests/{subQuestId}` : 서브퀘스트 정보
+
+### 설계 특징
+
+- 공통 퀘스트 원본과 사용자별 진행도를 분리
+- 사용자별 완료·진행 중·잠금 상태 관리
+- 퀘스트 클리어 결과를 EXP, 레벨업, 다음 퀘스트 해금과 연동
 
 ## 개선 계획
 
 - Firestore 보상 처리 동시성 개선
 - Firebase Security Rules 강화
 - 자동화 테스트 추가
-
-## 📱 프로젝트 실행 화면
-
-<p align="center">
-  <img src="screenshots/home.png" width="23%" alt="홈 화면">
-  <img src="screenshots/quest.png" width="23%" alt="퀘스트 목록">
-  <img src="screenshots/tutorial_block.png" width="23%" alt="기초 블록코딩">
-  <img src="screenshots/battle_block.png" width="23%" alt="블록코딩 전투">
-</p>
   
 ## 🔧 트러블슈팅
 
